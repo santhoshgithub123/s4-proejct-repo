@@ -36,7 +36,7 @@
 						<muleVersion>4.8.0</muleVersion>
 						<username>IBM_anypoint</username>
 						<password>IBM_anypoint!B1</password>
-						<applicationName>cicd-api-maven</applicationName>
+						<applicationName>cicd-api-maven-request</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
