@@ -29,6 +29,21 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				
+				<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.8.0</muleVersion>
+						<username>IBM_anypoint</username>
+						<password>IBM_anypoint!B1</password>
+						<applicationName>cicd-api-maven</applicationName>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
+				</configuration>
+				
 			</plugin>
 		</plugins>
 	</build>
